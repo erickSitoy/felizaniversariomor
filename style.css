@@ -7,19 +7,16 @@ body{
     background-image: url('./img/fondo1.jpg');
     background-size: cover;
     font-family: 'fuente1';
-    margin: 0;
-    padding: 0;
 }
 
 .contenedor{
-    margin-left: 25%;
-    margin-right: 25%;
-    width: 48.5%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2.5em;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .titulo{
@@ -44,9 +41,49 @@ body{
     position: relative;
 }
 
+#lin1{
+    margin-top:2.2em;
+    margin-left: 2.4em;
+}
+
+#lin2{
+    margin-top: 2.2em;
+    margin-left: 17.5em;
+}
+
+#lin3{
+    margin-top: 11em;
+    margin-left: -12.6em;
+}
+
+#lin4{
+    margin-top: 11em;
+    margin-left: 7.55em;
+}
+
+#lin5{
+    margin-top: -0.7em;
+    margin-left: -19.9em;
+}
+
+#lin6{
+    margin-top: -5.05em;
+    margin-left: 20.1em;
+}
+
+#lin7{
+    margin-top: 13.5em;
+    margin-left: 4.5em;
+}
+
+#lin8{
+    margin-top: 13.7em;
+    margin-left: 9.5em;
+}
+
 .cuadro1{
-    width: 2.5em;
-    height: 5.2em;
+    width: 5em;
+    height: 8.7em;
     z-index: -1;
     display: flex;
     justify-content: center;
@@ -55,8 +92,8 @@ body{
 }
 
 .cuadro2{
-    width: 2.5em;
-    height: 5.2em;
+    width: 4.8em;
+    height: 10em;
     transform: rotate(90deg);
     z-index: -1;
     display: flex;
@@ -66,8 +103,8 @@ body{
 }
 
 .cuadro3{
-    width: 3.1em;
-    height: 5.8em;
+    width: 6em;
+    height: 12.25em;
     z-index: -1;
     display: flex;
     justify-content: center;
@@ -170,6 +207,37 @@ a{
     .constelacion{
         grid-template-columns: repeat(7,2.4em);
         grid-template-rows: repeat(7,2.4em);
+    }
+
+    .cuadro1{
+        width: 2.5em;
+        height: 5.2em;
+        z-index: -1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    
+    .cuadro2{
+        width: 2.5em;
+        height: 5.2em;
+        transform: rotate(90deg);
+        z-index: -1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    
+    .cuadro3{
+        width: 3.1em;
+        height: 5.8em;
+        z-index: -1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
     }
 
     .estrella1{
