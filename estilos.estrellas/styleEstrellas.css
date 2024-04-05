@@ -10,6 +10,10 @@ body{
     overflow: hidden;
 }
 
+a{
+    text-decoration: none;
+}
+
 .contenedor{
     display: flex;
     justify-content: center;
@@ -27,7 +31,7 @@ body{
     border-radius: 5px;
     color: white;
     margin-bottom: 2.5%;
-    padding: 0.5em;
+    padding: 0.2em;
 }
 
 .titulo2{
@@ -58,6 +62,7 @@ body{
     justify-content: center;
     border: 1px solid wheat;
     border-radius: 5em;
+    transition: background-color 0.3s ease;
 }
 
 #si{
@@ -68,4 +73,12 @@ body{
 #no{
     background-color: red;
     color: black;
+}
+
+#si:hover{
+    background-color: rgba(172, 255, 47, 0.551);
+}
+
+#no:hover{
+    background-color: rgba(255, 0, 0, 0.556);
 }

@@ -1,6 +1,6 @@
 ﻿@font-face {
     font-family: 'fuente1';
-    src: url('../fonts/Tilt_Neon/TiltNeon-Regular.ttf');
+    src: url('./fonts/Tilt_Neon/TiltNeon-Regular.ttf');
 }
 
 body{
