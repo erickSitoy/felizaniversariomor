@@ -1,6 +1,6 @@
 @font-face {
     font-family: fuente1;
-    src: url('archives.css/LilitaOne-Regular.ttf');
+    src: url('../fonts/Tilt_Neon/TiltNeon-Regular.ttf');
 }
 
 .pagPrincipal{
@@ -8,7 +8,7 @@
 }
 
 body{
-    background-image: url('../mutimedia/background.jpg');
+    background-image: url('../img/fondo1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     font-family: fuente1, sans-serif;
@@ -29,40 +29,24 @@ body{
 .boton:hover{
     background-color:#9340ea;
 }
+
 .cartita{
     float: left;
     width: 500px;
-    height: 500px;
+    height: auto;
     margin-left: 100px;
+    margin-bottom: 50px;
     font-size: 17px;
     background-color: khaki;
     border: 1px solid black;
     border-radius: 10px;
-    padding: 20px;;
-}
-
-.flores{
-    float: right;
-    margin-top: 50px;
-    margin-right: 200px;
-    animation: moverArriba 2s ease-in-out infinite;
-}
-
-@keyframes moverArriba {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-100px);
-    }
-    100% {
-        transform: translateY(0);
-    }
+    padding: 20px;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     body {
         font-size: 10px;
+        height: max-content;
     }
 
     .pagPrincipal{
@@ -83,7 +67,7 @@ body{
 
     .cartita{
         width: 300px;
-        height: 760px;
+        height: fit-content;
         margin-left: 13px;
     }
 
